@@ -1,0 +1,7 @@
+#!/bin/bash
+name="test.out"
+gcc -o $name testfile.c
+if [ -f ./$name ]; then
+	./$name
+	rm $name
+fi

@@ -1,0 +1,143 @@
+commit 3028d85f903614b3eb299f8536fa14260bd2623c
+Author: Yantian Yin <yyin2@teach-node-07.cs.mcgill.ca>
+Date:   Sat Dec 2 23:32:10 2023 -0500
+
+    checked with data2.ssv 12 3, 3 0, -4 2, 4 5, 3 2. everything looks good, ready to submit
+
+commit 5837cb155f4496427575617333bdef026f0627ef
+Author: Yantian Yin <yyin2@teach-node-07.cs.mcgill.ca>
+Date:   Sat Dec 2 23:14:27 2023 -0500
+
+    tested with data1.ssv with entry of 12 3, 0 2, 4 5
+
+commit c31a7e5a6b24f8dae4b7a2a6a980f9974902dc49
+Author: Yantian Yin <yyin2@teach-node-07.cs.mcgill.ca>
+Date:   Sat Dec 2 12:38:58 2023 -0500
+
+    local test on ./polyapp data.ssv pass, data.ssv could be data.csv?
+
+commit f722d5f448797dd65e1aeb72644ac5591ee3a24d
+Author: Ramatoulaye Balde <ramatoulaye.balde@mail.mcgill.ca>
+Date:   Sat Dec 2 08:37:29 2023 -0500
+
+    Created makefile
+
+commit f5592fc91e097184969cdc8df479cde237c5be2c
+Merge: 1ee630d e8358fa
+Author: Ramatoulaye Balde <ramatoulaye.balde@mail.mcgill.ca>
+Date:   Sat Dec 2 06:23:06 2023 -0500
+
+    fixed bugs in poly.c
+
+commit 1ee630d16c8f63ad51ad17a27e4a0560ea71e8f0
+Merge: a46ca5c 9c60eda
+Author: Ramatoulaye Balde <ramatoulaye.balde@mail.mcgill.ca>
+Date:   Sat Dec 2 05:50:22 2023 -0500
+
+    Fixed all bugs in poly.c
+
+commit e8358fa60a253ea9a041850f4e12d9d2dc2d1246
+Author: Louis Wei <lwei19@teach-node-01.cs.mcgill.ca>
+Date:   Sat Dec 2 00:13:44 2023 -0500
+
+    CSV test file added
+
+commit 9c60edabd0fff4de81dc2d00c6255ba274c5eca0
+Author: Louis Wei <lwei19@teach-node-01.cs.mcgill.ca>
+Date:   Fri Dec 1 23:31:05 2023 -0500
+
+    Implemented the evaluation, and printing to the screen of evaluated functions with proper formating, main file should be done maybe few bugs to fix. But can't test until bugs from poly.c get fixed first
+
+commit a46ca5ce9fc6fe7e572cc90249a3c09f9b70c2f9
+Author: Ramatoulaye Balde <ramatoulaye.balde@mail.mcgill.ca>
+Date:   Fri Dec 1 23:30:33 2023 -0500
+
+    Main function in polyapp.c
+
+commit 6bc8f97128648703cd52505c9b121ad21b2223ca
+Author: Louis Wei <lwei19@teach-node-01.cs.mcgill.ca>
+Date:   Fri Dec 1 23:15:54 2023 -0500
+
+    Implemented extraction from csv file and adding the polynomials to the list
+
+commit 79d432c8a58076e05f1e7482ba6f02f57f9ecf4d
+Author: Louis Wei <lwei19@teach-node-01.cs.mcgill.ca>
+Date:   Fri Dec 1 22:57:59 2023 -0500
+
+    Added comments on what should is required for the main function
+
+commit aec2e26852e3633b70ba20c40d434ac2e586332c
+Author: Yantian Yin <yyin2@teach-node-05.CS.McGill.CA>
+Date:   Fri Dec 1 19:24:44 2023 -0500
+
+    update and add comment for usage of addPolyTerm
+
+commit 8a4a19a84caa8fc42d0ef11978433948004dc5d0
+Author: Yantian Yin <yyin2@teach-node-08.cs.mcgill.ca>
+Date:   Fri Dec 1 15:02:12 2023 -0500
+
+    addpolynomial update
+
+commit 8470158fe11fb08e4a466ffc4459d74da782760b
+Author: Sasha Seufert <aseufe@teach-node-07.cs.mcgill.ca>
+Date:   Thu Nov 30 20:43:57 2023 -0500
+
+    Testfile bug fix
+
+commit 1294be4103a3d5d1310864cad6feeff2917a59ae
+Author: Sasha Seufert <aseufe@teach-node-07.cs.mcgill.ca>
+Date:   Thu Nov 30 20:30:53 2023 -0500
+
+    - Bug fix in evaluatePolynomial()
+    - powi() caused stack smashing for very large bases (e.g. 150^5). Issue corrected.
+    - Corrected powi() to propertly handle integer overflow. Instead of large powers
+      causing overflow, powi() will return the maximum signed int value.
+    - Implemented unit tests in testfile.c (not for evaluation, but for convenience)
+
+commit e0e0c3e94eec95d0f7587c76d584a6f2109faef9
+Author: Sasha Seufert <aseufe@teach-node-07.cs.mcgill.ca>
+Date:   Wed Nov 29 18:19:48 2023 -0500
+
+    Improved clarity and formatting of function comments
+
+commit 737808669f786557b177b79bd65908c4575e0511
+Author: Sasha Seufert <aseufe@teach-node-07.cs.mcgill.ca>
+Date:   Wed Nov 29 17:53:29 2023 -0500
+
+    Implemented evaluatePolynomial().
+
+commit bf33313e2185aae38a1304e585369229526c0543
+Author: Sasha Seufert <aseufe@teach-node-07.cs.mcgill.ca>
+Date:   Wed Nov 29 17:02:56 2023 -0500
+
+    Added missing README.txt file
+
+commit 42dadd23cc77c4b149a35c2283f118a5d84f3b05
+Author: Yantian Yin <yyin2@teach-node-08.cs.mcgill.ca>
+Date:   Wed Nov 29 15:48:43 2023 -0500
+
+    add displayPolynomial
+
+commit 4734b49c58bcd95b84afeb63379e5eb753e8c454
+Author: Ramatoulaye Balde <ramatoulaye.balde@mail.mcgill.ca>
+Date:   Wed Nov 29 05:31:00 2023 -0500
+
+    created header files poly.h and utils.h and added start of functions to poly.c. Created polyapp.c.
+
+commit 171fa971985eddfede35be983af5f9a97e841593
+Author: Ramatoulaye Balde <ramatoulaye.balde@mail.mcgill.ca>
+Date:   Wed Nov 29 04:35:43 2023 -0500
+
+    Created header file utils.h for previouly created file utils.c
+
+commit e130fae8992bfbd0c8040bfb5c758e1b77168dde
+Author: Ramatoulaye Balde <ramatoulaye.balde@mail.mcgill.ca>
+Date:   Wed Nov 29 03:58:59 2023 -0500
+
+    Created utils file
+
+commit a3902962a73a68d90ca2e7eb9dcc5ebc7245db13
+Author: Ramatoulaye Balde <ramatoulaye.balde@mail.mcgill.ca>
+Date:   Tue Nov 28 19:17:17 2023 -0500
+
+    Testing the commit..
